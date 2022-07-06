@@ -3,11 +3,8 @@
 
 ## Database schema
 
-<object data="http://yoursite.com/the.pdf" type="application/pdf" width="700px" height="700px">
-    <embed src="http://yoursite.com/the.pdf">
-        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="http://yoursite.com/the.pdf">Download PDF</a>.</p>
-    </embed>
-</object>
+<img src="https://jigsaw-sample-data-1.s3.amazonaws.com/Slide1.jpg"
+     style="float: left; margin-right: 10px;" />
 
 ## Analytics Answers
 
