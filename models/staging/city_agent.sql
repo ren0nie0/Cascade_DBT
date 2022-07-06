@@ -1,0 +1,1 @@
+select city_agent from {{source('redshift-cluster-2','all_regions')}}
