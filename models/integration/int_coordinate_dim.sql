@@ -1,33 +1,33 @@
 with africa as (
-    Select coordinate_id, latitude, longitude from {{ ref('stg_africa') }}
+    Select coordinate_id, latitude, longitude, city_id from {{ ref('stg_africa') }}
 ),
 
 europe as (
-    Select coordinate_id, latitude, longitude from {{ ref('stg_europe') }}
+    Select coordinate_id, latitude, longitude, city_id from {{ ref('stg_europe') }}
 ),
 
 america as (
-    Select coordinate_id, latitude, longitude from {{ ref('stg_america') }}
+    Select coordinate_id, latitude, longitude, city_id from {{ ref('stg_america') }}
 ),
 
 indian as (
-    Select coordinate_id, latitude, longitude from {{ ref('stg_indian') }}
+    Select coordinate_id, latitude, longitude, city_id from {{ ref('stg_indian') }}
 ),
 
 asia as (
-    Select coordinate_id, latitude, longitude from {{ ref('stg_asia') }}
+    Select coordinate_id, latitude, longitude, city_id from {{ ref('stg_asia') }}
 ),
 
 australia as (
-    Select coordinate_id, latitude, longitude from {{ ref('stg_australia') }}
+    Select coordinate_id, latitude, longitude, city_id from {{ ref('stg_australia') }}
 
 ),
 pacific as (
-Select coordinate_id, latitude, longitude from {{ ref('stg_pacific') }}
+Select coordinate_id, latitude, longitude, city_id from {{ ref('stg_pacific') }}
 ),
 
 atlantic as (
-Select coordinate_id, latitude, longitude from {{ ref('stg_atlantic') }}
+Select coordinate_id, latitude, longitude, city_id from {{ ref('stg_atlantic') }}
 )
 select * from (
 Select * From africa
@@ -44,4 +44,4 @@ SELECT * FROM asia
 UNION ALL 
 SELECT * FROM indian
 UNION ALL 
-SELECT * FROM atlantic) GROUP BY 1,2,3
+SELECT * FROM atlantic) GROUP BY 1,2,3,4
