@@ -1,1 +1,0 @@
-select has_weapon, has_hat, has_jacket, behavior from {{source('redshift-cluster-2','all_regions')}}
