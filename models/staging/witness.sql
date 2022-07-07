@@ -1,1 +1,0 @@
-select witness from {{source('redshift-cluster-2','all_regions')}}

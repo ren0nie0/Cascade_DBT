@@ -1,1 +1,0 @@
-select date_witness, date_agent from {{source('redshift-cluster-2','all_regions')}}

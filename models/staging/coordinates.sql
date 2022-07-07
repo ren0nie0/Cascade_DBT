@@ -1,1 +1,0 @@
-select latitude, longitude from {{source('redshift-cluster-2','all_regions')}}
