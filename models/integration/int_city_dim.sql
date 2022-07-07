@@ -1,33 +1,33 @@
 with africa as (
-    Select city_id, city from {{ ref('stg_africa') }}
+    Select city_id, city, country_id from {{ ref('stg_africa') }}
 ),
 
 europe as (
-    Select city_id, city from {{ ref('stg_europe') }}
+    Select city_id, city, country_id from {{ ref('stg_europe') }}
 ),
 
 america as (
-    Select city_id, city from {{ ref('stg_america') }}
+    Select city_id, city, country_id from {{ ref('stg_america') }}
 ),
 
 indian as (
-    Select city_id, city from {{ ref('stg_indian') }}
+    Select city_id, city, country_id from {{ ref('stg_indian') }}
 ),
 
 asia as (
-    Select city_id, city from {{ ref('stg_asia') }}
+    Select city_id, city, country_id from {{ ref('stg_asia') }}
 ),
 
 australia as (
-    Select city_id, city from {{ ref('stg_australia') }}
+    Select city_id, city, country_id from {{ ref('stg_australia') }}
 
 ),
 pacific as (
-Select city_id, city from {{ ref('stg_pacific') }}
+Select city_id, city, country_id from {{ ref('stg_pacific') }}
 ),
 
 atlantic as (
-Select city_id, city from {{ ref('stg_atlantic') }}
+Select city_id, city, country_id from {{ ref('stg_atlantic') }}
 )
 select * from (
 Select * From africa
@@ -44,4 +44,4 @@ SELECT * FROM asia
 UNION ALL 
 SELECT * FROM indian
 UNION ALL 
-SELECT * FROM atlantic) GROUP BY 1,2
+SELECT * FROM atlantic) GROUP BY 1,2,3
