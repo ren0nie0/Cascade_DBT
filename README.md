@@ -45,3 +45,16 @@
 ##### 3. happy
 
 #### d. For each month, what is the probability Ms. Sandiego exhibits one of her three most occurring behaviors?
+
+##### January 0.15
+##### February 0.13
+##### March 0.15 
+##### April 0.15
+##### May 0.15
+##### June 0.12
+##### July 0.15
+##### August 0.13
+##### September 0.15 
+##### October 0.13
+##### November 0.14
+##### December 0.13
