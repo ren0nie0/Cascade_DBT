@@ -24,12 +24,13 @@
 
 #### b. Also for each month, what is the probability that Ms. Sandiego is armed AND wearing a jacket, but NOT a hat? What general observations about Ms. Sandiego can you make from this?
 
-##### January 0.5
-##### February 0.33
-##### March 0.42
-##### April 0.36
-##### May 0.34
-##### June 0.44
+|January| 0.5|
+|-------|-|
+|February |0.33|
+| March |0.42|
+ |April |0.36|
+ |May |0.34|
+|June |0.44|
 ##### July 0.4
 ##### August 0.33
 ##### September 0.49
