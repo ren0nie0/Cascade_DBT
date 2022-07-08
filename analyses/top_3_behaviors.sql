@@ -3,7 +3,7 @@ WITH behavior as (
 ),
 
 sightings as (
-    Select * from {{ ref('mart_sightings_fact') }}
+    Select * from {{ ref('mart_sightings_fct') }}
 ),
 
 behavior_counts as (

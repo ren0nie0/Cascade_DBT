@@ -4,7 +4,7 @@ with city_agent as (
 
 sightings as (
     Select extract(Month from date_agent) as sighting_month, city_agent_id 
-      from {{ ref('mart_sightings_fact') }}
+      from {{ ref('mart_sightings_fct') }}
    
 ),
 
