@@ -4,7 +4,7 @@ WITH behavior as (
 
 sightings as (
     Select extract(Month from date_agent) as sighting_month, description_id
-      from {{ ref('mart_sightings_fact') }}),
+      from {{ ref('mart_sightings_fct') }}),
 
 sightings_per_month as (
 select COUNT(*) as total_num_of_sightings, sighting_month 
