@@ -1,4 +1,4 @@
-sightings as (
+with sightings as (
     Select extract(Month from date_agent) as sighting_month, has_weapon, has_jacket, has_hat
       from {{ ref('mart_sightings_fact') }}),
 
@@ -17,7 +17,7 @@ sightings_w_criteria as (
 ),
 
 probability_per_month as (
-select ROUND(CAST(num_of_sightings as FLOAT)*1.0/CAST(total_num_of_sightings AS FLOAT),3)*10 as probability , 
+select ROUND(CAST(num_of_sightings as FLOAT)*1.0/CAST(total_num_of_sightings AS FLOAT),2) as probability , 
 c.sighting_month as sighting_month, has_weapon, has_jacket, has_hat
   from sightings_w_criteria c
   join sightings_per_month s
