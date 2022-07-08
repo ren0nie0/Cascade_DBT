@@ -22,7 +22,7 @@ select count(*) as num_of_sightings, sighting_month, c.city_agent
   group by 2,3 order by sighting_month),
 
 probability_per_month_region as (
-select ROUND(CAST(num_of_sightings as FLOAT)*1.0/CAST(total_num_of_sightings AS FLOAT),2)*10 as probability , c.sighting_month as sighting_month, city_agent
+select ROUND(CAST(num_of_sightings as FLOAT)*1.0/CAST(total_num_of_sightings AS FLOAT),2) as probability , c.sighting_month as sighting_month, city_agent
   from sightings_per_month_per_city_agent c
   join sightings_per_month s
   on s.sighting_month = c.sighting_month),
