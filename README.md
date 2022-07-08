@@ -24,8 +24,24 @@
 
 #### b. Also for each month, what is the probability that Ms. Sandiego is armed AND wearing a jacket, but NOT a hat? What general observations about Ms. Sandiego can you make from this?
 
+##### January 0.5
+##### February 0.33
+##### March 0.42
+##### April 0.36
+##### May 0.34
+##### June 0.44
+##### July 0.4
+##### August 0.33
+##### September 0.49
+##### October 0.39
+##### November 0.4
+##### December 0.3
+
+
 #### c. What are the three most occuring behaviors of Ms. Sandiego?
 
-complaining , out-of-control , happy
+##### 1. complaining 
+##### 2. out-of-control 
+##### 3. happy
 
 #### d. For each month, what is the probability Ms. Sandiego exhibits one of her three most occurring behaviors?
