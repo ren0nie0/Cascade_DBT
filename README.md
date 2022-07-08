@@ -9,18 +9,20 @@
 ## Analytics Answers
 
 #### a. For each month, which agency region is Carmen Sandiego most likely to be found?
-##### January  - Kolkata 0.812
-##### February - Kolkata 0.82
-##### March  - New York 0.85
-##### April - New York 0.82
-##### May - New York 0.73
-##### June - New York 0.84
-##### July - New York 0.78
-##### August - New York 0.68
-##### September - New York 0.77
-##### October - New York 0.58
-##### November - Kolkata 0.66
-##### December - New York 0.77
+|Month|City_Agent | Probability|
+|----|----------|-----------|
+|January |Kolkata |0.08|
+|February |Kolkata |0.08|
+|March|New York |0.08|
+|April| New York| 0.08|
+|May |New York |0.07|
+June|New York |0.08|
+|July |New York |0.08|
+|August| New York|0.07|
+|September|New York| 0.08|
+|October |New York| 0.06|
+|November | Kolkata| 0.07|
+|December|New York |0.08|
 
 #### b. Also for each month, what is the probability that Ms. Sandiego is armed AND wearing a jacket, but NOT a hat? What general observations about Ms. Sandiego can you make from this?
 
