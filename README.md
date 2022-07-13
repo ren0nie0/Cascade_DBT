@@ -5,7 +5,10 @@
 
 <img src="https://jigsaw-sample-data-1.s3.amazonaws.com/Slide2.jpg"
      style="float: left; margin-right: 10px;" />
+     
+## dbt Docs:
 
+*[Click Here](https://jigsaw-sample-data-1.s3.amazonaws.com/index.html)*
 ## Analytics Answers
 
 #### a. For each month, which agency region is Carmen Sandiego most likely to be found?
