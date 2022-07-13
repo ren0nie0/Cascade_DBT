@@ -5,7 +5,7 @@
 
 I chose to use AWS Redshift to create and populate tables with data that is stored in an S3 bucket. I use the dbt Pattern of Source -> Staging -> Integration -> Marts to finally make the analytical views needed to answer the Carmen questions.  Below is the overall design of the database:
 
-![img.png](doc/Screen Shot 2022-07-13 at 5.06.36 PM.png)
+![image1.png](doc/image1.png)
 
 
 ## Entity Relation Diagram
@@ -13,7 +13,7 @@ I chose to use AWS Redshift to create and populate tables with data that is stor
 <img src="https://jigsaw-sample-data-1.s3.amazonaws.com/Slide2.jpg"
      style="float: left; margin-right: 10px;" />
      
-## dbt Docs:
+## dbt Docs can be found below:
 
 *[Click Here](https://jigsaw-sample-data-1.s3.amazonaws.com/index.html)*
 ## Analytics Answers
